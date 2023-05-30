@@ -534,10 +534,10 @@ const IndexPage = () => {
               <div className="schedule-tabs">
                 <nav className="nav nav-tabs" id="myTab" role="tablist">
                   <a
-                    className="nav-item nav-link active"
+                    className="cursor-pointer nav-item nav-link"
                     id="nav-friday-tab"
                     data-toggle="tab"
-                    href="#nav-friday"
+                    
                     role="tab"
                     aria-controls="nav-friday"
                     aria-selected={selectDate1}
@@ -546,10 +546,10 @@ const IndexPage = () => {
                     Week 1 (july 1 - 7)
                   </a>
                   <a
-                    className="nav-item nav-link"
+                    className="cursor-pointer nav-item nav-link"
                     id="nav-saturday-tab"
                     data-toggle="tab"
-                    href="#nav-saturday"
+                    
                     role="tab"
                     aria-controls="nav-saturday"
                     aria-selected={selectDate2}
@@ -558,10 +558,10 @@ const IndexPage = () => {
                     Week 2 (July 8 - 14 )
                   </a>
                   <a
-                    className="nav-item nav-link"
+                    className="cursor-pointer nav-item nav-link"
                     id="nav-sunday-tab"
                     data-toggle="tab"
-                    href="#nav-sunday"
+                    
                     role="tab"
                     aria-controls="nav-sunday"
                     aria-selected={selectDate3}
